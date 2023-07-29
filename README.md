@@ -4,14 +4,16 @@
 
 ![image from unsplash](https://images.unsplash.com/photo-1633412802994-5c058f151b66?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3FsfGVufDB8fDB8fHww&auto=format&fit=crop&w=400&q=60)
 
-Exploratory Data Analysis(EDA) is a crucial first step in the data analysis process. it invloves the use of various techniques, tools, <br> and visualization to understand the structure, patterns, and characteristics of a data-set. The primary goal of EDA is to gain <br> insights from the data, identify patterns and trends, detect anomalies, and prepare the data for further analysis and modeling.
+Exploratory Data Analysis(EDA) is a crucial first step in the data analysis process. it invloves the use of various techniques, tools, and visualization to understand the structure, patterns, and characteristics of a data-set. The primary goal of EDA is to gain insights from the data, identify patterns and trends, detect anomalies, and prepare the data for further analysis and modeling.
 
-The `FIFA22` dataet is extracted from the popular football video games of `FIFA`. Every year, there is a new game released with updated charac- <br> teristics and skills for all players from all the biggest competitions in the world. This means that there are up-to-date characteristics and skills <br> of the players that were transferred between `2015` and `2022`. The player characteristics can be found in the variables: player `name`, `age`, `heiht`<br> `in` `centimeters`, `weight in kilogram`, `nationality`, `player` `position`, `preferred foot`, `international reputation`, and `contract` <br> `duration` etc.The field player skills are divided into six subcategories, namely`passing`, `defending`, `physical`, `dribbling`, `shooting`, and `pace`.<br> For goalkeepers, the subcategories are `kicking`, `handling`, `shooting`, `reflexes`, `diving`, and `speed`. The subcategories all have subcategories themselves as well. Also, every player has an `overall` rating and a `potential`rating in the game. All ratings are in the range of `1` and `99`, where <br>the lowest is `1`and where `99` is the highest possible score. An overview of all variables in the FIFA dataset can be found in Table A1, in <br>`Data discription`.  
-The information in the datasets is derived from [sofifa.com](sofifa.com), which is a well-known website with an overview of all FIFA data per year. A copy of the <br>data-set can be downloaded from [this kaggle data repositry](https://www.kaggle.com/datasets/stefanoleone992/fifa-22-complete-player-dataset)
+<br>
+The `FIFA22` dataset is extracted from the popular football video games of `FIFA`. Every year, there is a new game released with updated characteristics and skills for all players from all the biggest competitions in the world. This means that there are up-to-date characteristics and skills of the players that were transferred between `2015` and `2022`. The player characteristics can be found in the variables: player `name`, `age`, `height` `in` `centimeters`, `weight in kilogram`, `nationality`, `player` `position`, `preferred foot`, `international reputation`, and `contract duration` etc.The field player skills are divided into six subcategories, namely`passing`, `defending`, `physical`, `dribbling`, `shooting`, and `pace`.<br> For goalkeepers, the subcategories are `kicking`, `handling`, `shooting`, `reflexes`, `diving`, and `speed`. The subcategories all have subcategories themselves as well. Also, every player has an `overall` rating and a `potential` rating in the game. All ratings are in the range of `1` and `99`, where the lowest is `1` and where `99` is the highest possible score.
+<br>
+The information in the datasets is derived from [sofifa.com](sofifa.com), which is a well-known website with an overview of all FIFA data per year. A copy of the data-set can be downloaded from [this kaggle data repositry](https://www.kaggle.com/datasets/stefanoleone992/fifa-22-complete-player-dataset)
 
 ---
 
-<p>The aim of this article is to use EDA technique to dive into the FIFA22 data-set, derive some interesting insights from the data-set and identify <br> anomalies.<br>
+<p>The aim of this article is to use EDA technique to dive into the FIFA22 data-set, derive some interesting insights from the data-set and identify anomalies.<br>
 
 The comon question we want to answer include:
 
@@ -25,13 +27,13 @@ The comon question we want to answer include:
 <br>
 
 PREREQUISITE  
-You need to have a basic knowledge of SQl in order to follow through this guide, also you can install any of the SQL tool which we are going to be <br> using to run the codes i.e. MySQL, MSSQL, PostgreSQL etc.
+You need to have a basic knowledge of SQl in order to follow through this guide, also you can install any of the SQL tool which we are going to be using to run the codes i.e. MySQL, MSSQL, PostgreSQL etc.
 
 <br>
 
 ## LOADING THE DATA SET
 
-At first we need to load the dataset we are going to work with. There are several ways to load/import data set into an SQl database, for this lesson <br> i am going to use python to import the data set into PostgreSQL.
+At first we need to load the dataset we are going to work with. There are several ways to load/import data set into an SQl database, for this lesson i am going to use python to import the data set into PostgreSQL.
 
 > Note: other SQL work bench allow's to import directly from the workbench eg.MySQL. Since i am using Postgres where importing data set is somehow complecated, i decided to use python to import the data set into the PSQL db which is a more faster and convinience way.
 
