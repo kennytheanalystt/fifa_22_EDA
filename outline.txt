@@ -1,0 +1,11 @@
+write an article about the sql project on fifa players 22 video game
+(How-to Giude Article)
+
+Tittle: Exploratory Data Analysis Using SQL
+Sub-tittle: Analysis of the FIFA22 Dataset
+Prerequisite: List the minimum requirement the audince need to follow this guide
+Introduction: Begin by describing intoducing the concept of the work and what the user should expect.
+Body: show how you go about the work step by step with examples ie screenshot, visuals, code etc.
+Conclution:conlude the work by summerizing what has been done in the above and what we gain from it.
+
+Publish the work @github, dev.to
