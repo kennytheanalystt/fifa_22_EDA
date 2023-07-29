@@ -10,6 +10,8 @@ Exploratory Data Analysis(EDA) is a crucial first step in the data analysis proc
 The `FIFA22` dataset is extracted from the popular football video games of `FIFA`. Every year, there is a new game released with updated characteristics and skills for all players from all the biggest competitions in the world. This means that there are up-to-date characteristics and skills of the players that were transferred between `2015` and `2022`. The player characteristics can be found in the variables: player `name`, `age`, `height` `in` `centimeters`, `weight in kilogram`, `nationality`, `player` `position`, `preferred foot`, `international reputation`, and `contract duration` etc.The field player skills are divided into six subcategories, namely`passing`, `defending`, `physical`, `dribbling`, `shooting`, and `pace`.<br> For goalkeepers, the subcategories are `kicking`, `handling`, `shooting`, `reflexes`, `diving`, and `speed`. The subcategories all have subcategories themselves as well. Also, every player has an `overall` rating and a `potential` rating in the game. All ratings are in the range of `1` and `99`, where the lowest is `1` and where `99` is the highest possible score.
 <br>
 The information in the datasets is derived from [sofifa.com](sofifa.com), which is a well-known website with an overview of all FIFA data per year. A copy of the data-set can be downloaded from  [this kaggle data repositry](https://www.kaggle.com/datasets/stefanoleone992/fifa-22-complete-player-dataset)
+
+<br>
 ---
 
 <p>The aim of this article is to use EDA technique to dive into the FIFA22 data-set, derive some interesting insights from the data-set and identify anomalies.<br>
