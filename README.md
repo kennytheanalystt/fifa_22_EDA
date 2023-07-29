@@ -569,7 +569,7 @@ SELECT short_name, defending_marking_awareness, defending_sliding_tackle, defend
 
 <br>
 
-### **(Qr10)** Best Goalkeeper:
+### **(Qr11)** Best Goalkeeper:
 
 <br>
 
@@ -609,7 +609,7 @@ SELECT short_name, goalkeeping_reflexes, goalkeeping_handling, goalkeeping_divin
 
 <br>
 
-### **(Qr10)** Most Paid player(Wage in eur):
+### **(Qr12)** Most Paid player(Wage in eur):
 
 <br>
 <p>Player wages are the salaries that players receive from their clubs. They are typically paid weekly or monthly, and they can vary depending on a number of factors, including the player's age, experience, ability, and the club's financial situation.
@@ -662,7 +662,7 @@ SELECT short_name, wage_eur, value_eur, overall, club_position,nationality_name,
 
 <br>
 
-### **(Qr11)** Top Rated Player player(Overall):
+### **(Qr13)** Top Rated Player player(Overall):
 
 <br>
 <p>The overall rating of a player is a number that represents their overall ability in FIFA. It is calculated based on a number of factors, including their attributes, their position, and their form.
@@ -697,13 +697,14 @@ SELECT short_name, overall,age,club_position,club_name
 
 <br>
 
-### **(Qr12)** Preferred Foot of a Player:
+### **(Qr14)** Preferred Foot of a Player:
 
 <br>
 <p>A player's preferred foot is the foot that they use most often to kick the ball. This can have a significant impact on their playing style and their ability to perform certain skills.
 
 <br>
 For example, a player who is right-footed will typically be better at crossing the ball with their right foot and shooting with their right foot. <br>They may also be better at dribbling with their right foot and passing with their right foot.
+
 <br>
 On the other hand, a player who is left-footed will typically be better at crossing the ball with their left foot and shooting with their left foot. <br>They may also be better at dribbling with their left foot and passing with their left foot.
 
@@ -712,6 +713,7 @@ Of course, there are some players who are ambidextrous and can use both feet equ
 <br>
 The preferred foot of a player can be determined by a number of factors, including their genetics, their training, and their playing style.
 
+<br>
 <br>
 Finally, a player's playing style can also affect their preferred foot. For example, a player who is a striker will typically need to be good at shooting with both feet, as they will need to be able to score goals from both sides of the goal. However, a player who is a defender may only need to be good at using one foot, as they will typically only need to defend from one side of the field.
 <br>
@@ -732,7 +734,7 @@ SELECT DISTINCT preferred_foot, COUNT(*) AS total
 
 <br>
 
-### **(Qr13)** What is the player age distribution?:
+### **(Qr15)** What is the player age distribution?:
 
 <br>
 <p>Below, we could note that the player age distribution in soccer is typically bimodal, with a peak in the early 20s and another peak in the late 30s. This is because players tend to reach their peak physical and technical abilities in their early 20s, but they can also maintain a high level of performance into their late 30s if they stay fit and healthy.
@@ -787,7 +789,7 @@ SELECT DISTINCT age, COUNT(*) total
 
 ## BONUS
 
-### **(Qr13)** What is the current player age(Now):
+### **(Qr16)** What is the current player age(Now):
 
 <br>
 <p> 
